@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    background-color: peru;
+}
+
+.header{
+  background: rgba(236, 234, 234, 0.7);
+  border:4px solid black;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.header ul{
+  display: inline-block;
+  align-items: center;
+}
+
+.header nav{
+  margin-top: 20px;
+  margin-right: 25px;
+}
+
+.cuerpo{
+  margin-top: 50px;
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+}
+
+.cuerpo div{
+  margin-left: 20px;
+}
+
+.cuerpo h1{
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.cuerpo h3{
+  margin: 0;
+}
+
+.Retos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.img{
+  width: 300px;
+}
